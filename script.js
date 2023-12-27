@@ -73,7 +73,7 @@ function handleClick() {
       </div>`;
         }
       } else {
-        catData += `<div id="text-align"><h1 id="inter-font">No dish found in this Cuisine </h1></div>`;
+        catData += `<div id="text-align"><h1 id="inter-font">No dish found in this Category </h1></div>`;
       }
 
       document.getElementById("cat-search").innerHTML = catData;
