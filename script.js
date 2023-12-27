@@ -107,8 +107,6 @@ function handleCardClick(e) {
       });
       document.getElementById("cat-search").onclick = () => {
         document.getElementById("modal-search").style.display = "block";
-        document.getElementById("modal-search").className =
-          "modal-open-animation";
       };
     });
 }
